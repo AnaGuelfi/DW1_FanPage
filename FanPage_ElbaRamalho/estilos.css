@@ -1,0 +1,64 @@
+h1, h3, h4{
+    font-family: "Times New Roman";
+    color:#090979
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #020024;
+    top: 0;
+    font-weight: bold;
+    font-family: "Segoe UI";
+}
+  
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color:white;
+}
+
+h1, .videos, .audios{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.audio1, .audio2, .audio3{
+    height: 200px;
+}
+
+.video1, .video2, .video3{
+    height: 500px;
+}
+
+.video1, .audio1 {
+    float:left; 
+    /*background: #aaa;*/
+    width:30%;
+}
+.video2, .audio2{
+    float:left; 
+    /*background: #aaa;*/
+    width:40%;
+}
+.video3, .audio3{
+    float:right;
+    /*background:#aaa;*/
+    width:30%;
+}
+
+.titulo_audio, h3{
+    margin-bottom: 70px;
+}
+
+a{
+    text-decoration: none;
+}
